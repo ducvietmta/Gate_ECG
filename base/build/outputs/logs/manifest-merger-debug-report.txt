@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:2:1-35
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:1-11:12
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:3:1-76
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:3:18-73
+application
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:5:1-10:15
+activity#com.nbsp.materialfilepicker.ui.FilePickerActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:7:3-9:14
+	android:theme
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:8:7-43
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:7:13-77
+uses-sdk
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml

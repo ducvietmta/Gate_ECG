@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/incremental/mergeAllDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/viettd/.gradle/caches/transforms-2/files-2.1/ce909b28bb5083adb09cb90044dd008a/appcompat-v7-28.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                },
+                {
+                    "source": "/Users/viettd/.gradle/caches/transforms-2/files-2.1/0d7aa60173d3c01c04e5a9fd17c99b65/design-28.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                }
+            ]
+        }
+    ]
+}

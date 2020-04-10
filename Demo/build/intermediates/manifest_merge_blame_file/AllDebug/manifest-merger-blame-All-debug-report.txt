@@ -1,0 +1,307 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vivalnk.sdk.vSDK.demo"
+4    android:versionCode="753"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->[no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:6:3-65
+11-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:6:20-63
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:7:3-71
+12-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:7:20-69
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:8:3-78
+13-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:8:20-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:9:3-77
+14-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:9:20-75
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:10:3-74
+15-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:10:20-72
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:12:3-65
+16-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:12:20-62
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:13:3-77
+17-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:13:20-74
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:14:3-74
+18-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:14:20-71
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:15:3-66
+19-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:15:20-63
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:16:3-73
+20-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:16:20-70
+21    <!-- for bugly: crash log upload -->
+22    <uses-permission android:name="android.permission.READ_LOGS" />
+22-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:18:3-66
+22-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:18:20-63
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:15:3-66
+23-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:15:20-63
+24
+25    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:22:3-85
+25-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:22:27-83
+26    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+27    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
+28    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->[sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:34:5-86
+28-->[sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:34:29-83
+29
+30    <application
+30-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:24:3-78:17
+31        android:name="com.vivalnk.sdk.demo.vital.base.DemoApplication"
+31-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:29:5-41
+32        android:allowBackup="true"
+32-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:25:5-31
+33        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+33-->[com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+35-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:26:9-42
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:26:5-39
+37        android:label="@string/app_name"
+37-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:28:5-37
+38        android:networkSecurityConfig="@xml/network_security_config"
+38-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:31:5-65
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:27:5-50
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:30:5-36
+42        <activity
+42-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:33:5-41:16
+43            android:name="com.vivalnk.sdk.demo.vital.ui.WelcomeActivity"
+43-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:34:7-41
+44            android:screenOrientation="portrait"
+44-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:35:7-43
+45            android:theme="@style/AppTheme" >
+45-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:36:7-38
+46            <intent-filter>
+46-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:37:7-40:23
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:38:9-60
+47-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:38:17-58
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:39:9-68
+49-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:39:19-66
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:42:5-48:40
+53            android:name="com.vivalnk.sdk.demo.vital.ui.ScanningActivity"
+53-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:46:7-42
+54            android:configChanges="keyboardHidden|orientation|screenSize"
+54-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:43:7-68
+55            android:label="@string/main_menu_scaning"
+55-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:44:7-48
+56            android:launchMode="singleTop"
+56-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:45:7-37
+57            android:screenOrientation="portrait"
+57-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:47:7-43
+58            android:theme="@style/AppTheme" />
+58-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:48:7-38
+59        <activity
+59-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:49:5-53:46
+60            android:name="com.vivalnk.sdk.demo.vital.ui.MotionGraphicActivity"
+60-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:52:7-47
+61            android:configChanges="keyboardHidden|orientation|screenSize"
+61-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:50:7-68
+62            android:label="@string/activity_graphic"
+62-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:51:7-47
+63            android:screenOrientation="landscape" />
+63-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:53:7-44
+64        <activity
+64-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:54:5-58:46
+65            android:name="com.vivalnk.sdk.demo.vital.ui.HistoryActivity"
+65-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:57:7-41
+66            android:configChanges="keyboardHidden|orientation|screenSize"
+66-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:55:7-68
+67            android:label="@string/activity_history"
+67-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:56:7-47
+68            android:screenOrientation="landscape" />
+68-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:58:7-44
+69        <activity
+69-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:59:5-64:45
+70            android:name="com.vivalnk.sdk.demo.vital.ui.DeviceMenuActivity"
+70-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:62:7-44
+71            android:configChanges="keyboardHidden|orientation|screenSize"
+71-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:60:7-68
+72            android:label="@string/title_activity_device"
+72-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:61:7-52
+73            android:parentActivityName="com.vivalnk.sdk.demo.vital.ui.ScanningActivity"
+73-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:63:7-56
+74            android:screenOrientation="portrait" />
+74-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:64:7-43
+75        <activity
+75-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:65:5-70:45
+76            android:name="com.vivalnk.sdk.demo.vital.ui.DeviceConnectedListActivity"
+76-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:68:7-53
+77            android:configChanges="keyboardHidden|orientation|screenSize"
+77-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:66:7-68
+78            android:label="@string/main_menu_connected"
+78-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:67:7-50
+79            android:parentActivityName="com.vivalnk.sdk.demo.vital.ui.ScanningActivity"
+79-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:69:7-56
+80            android:screenOrientation="portrait" />
+80-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:70:7-43
+81        <activity
+81-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:71:5-74:45
+82            android:name="com.vivalnk.sdk.demo.vital.ui.RuntimeCheckActivity"
+82-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:73:7-46
+83            android:configChanges="keyboardHidden|orientation|screenSize"
+83-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:72:7-68
+84            android:screenOrientation="portrait" />
+84-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:74:7-43
+85        <activity android:name="com.vivalnk.sdk.demo.vital.ui.OTAActivity" />
+85-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:75:5-47
+85-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:75:15-45
+86        <activity android:name="com.vivalnk.sdk.demo.vital.ui.DeviceMenu200Activity" />
+86-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:76:5-57
+86-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:76:15-55
+87
+88        <service android:name="org.eclipse.paho.android.service.MqttService" />
+88-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:77:5-84
+88-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:77:14-73
+89
+90        <activity
+90-->[:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:20
+91            android:name="com.nbsp.materialfilepicker.ui.FilePickerActivity"
+91-->[:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-77
+92            android:theme="@style/MFP_BaseTheme" >
+92-->[:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-49
+93        </activity>
+94        <activity android:name="com.vivalnk.sdk.ble.ota.NotificationActivity" /> <!-- Service -->
+94-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:24:9-81
+94-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:24:19-78
+95        <service android:name="com.vivalnk.sdk.ble.dfu.DfuService" >
+95-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:26:9-32:19
+95-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:26:18-67
+96            <intent-filter>
+96-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:27:13-31:29
+97                <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
+97-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:28:17-82
+97-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:28:25-79
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:30:17-76
+99-->[sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:30:27-73
+100            </intent-filter>
+101        </service> <!-- Data Browser -->
+102        <service
+102-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:30:9-32:40
+103            android:name="io.objectbox.android.AndroidObjectBrowserService"
+103-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:31:13-76
+104            android:exported="false" />
+104-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:32:13-37
+105
+106        <receiver
+106-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:34:9-40:20
+107            android:name="io.objectbox.android.AndroidObjectBrowserReceiver"
+107-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:35:13-77
+108            android:exported="false" >
+108-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:36:13-37
+109            <intent-filter>
+109-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:37:13-39:29
+110                <action android:name="io.objectbox.action.KEEP_ALIVE" />
+110-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:38:17-73
+110-->[io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:38:25-70
+111            </intent-filter>
+112        </receiver>
+113
+114        <service
+114-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+115            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+115-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+116            android:enabled="false"
+116-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+117            android:process=":leakcanary" />
+117-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+118        <service
+118-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+119            android:name="com.squareup.leakcanary.DisplayLeakService"
+119-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+120            android:enabled="false"
+120-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+121            android:process=":leakcanary" />
+121-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+122
+123        <provider
+123-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+124            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+124-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+125            android:authorities="com.squareup.leakcanary.fileprovider.com.vivalnk.sdk.vSDK.demo"
+125-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+126            android:exported="false"
+126-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+127            android:grantUriPermissions="true" >
+127-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+128            <meta-data
+128-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+129                android:name="android.support.FILE_PROVIDER_PATHS"
+129-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+130                android:resource="@xml/leak_canary_file_paths" />
+130-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+131        </provider>
+132
+133        <activity
+133-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+134            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+134-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+135            android:enabled="false"
+135-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+136            android:icon="@mipmap/leak_canary_icon"
+136-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+137            android:label="@string/leak_canary_display_activity_label"
+137-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+138            android:process=":leakcanary"
+138-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+139            android:taskAffinity="com.squareup.leakcanary.com.vivalnk.sdk.vSDK.demo"
+139-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+140            android:theme="@style/leak_canary_LeakCanary.Base" >
+140-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+141            <intent-filter>
+141-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:37:7-40:23
+142                <action android:name="android.intent.action.MAIN" />
+142-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:38:9-60
+142-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:38:17-58
+143
+144                <category android:name="android.intent.category.LAUNCHER" />
+144-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:39:9-68
+144-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:39:19-66
+145            </intent-filter>
+146        </activity>
+147        <activity
+147-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+148            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+148-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93
+149            android:enabled="false"
+149-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+150            android:excludeFromRecents="true"
+150-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+151            android:icon="@mipmap/leak_canary_icon"
+151-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+152            android:label="@string/leak_canary_storage_permission_activity_label"
+152-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+153            android:process=":leakcanary"
+153-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+154            android:roundIcon="@mipmap/leak_canary_icon"
+154-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+155            android:taskAffinity="com.squareup.leakcanary.com.vivalnk.sdk.vSDK.demo"
+155-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+156            android:theme="@style/leak_canary_Theme.Transparent" />
+156-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+157    </application>
+158
+159</manifest>

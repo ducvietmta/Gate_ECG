@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vivalnk.sdk.app.base"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk android:minSdkVersion="19" />
+7-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:3:1-76
+9-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:3:18-73
+10
+11    <application>
+11-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:5:1-10:15
+12        <activity
+12-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:7:3-9:14
+13            android:name="com.nbsp.materialfilepicker.ui.FilePickerActivity"
+13-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:7:13-77
+14            android:theme="@style/MFP_BaseTheme" >
+14-->/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/src/main/AndroidManifest.xml:8:7-43
+15        </activity>
+16    </application>
+17
+18</manifest>

@@ -1,0 +1,16 @@
+#Fri Apr 10 11:29:26 ICT 2020
+path.3=classes_0.dex
+path.2=classes2.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/dex/AllDebug/mergeLibDexAllDebug/out/classes_1.dex
+renamed.0=classes.dex
+base.3=/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/dex/AllDebug/mergeLibDexAllDebug/out/classes_0.dex
+base.2=/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/dex/AllDebug/mergeExtDexAllDebug/out/classes2.dex
+base.1=/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/dex/AllDebug/mergeProjectDexAllDebug/out/classes.dex
+base.0=/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/dex/AllDebug/mergeExtDexAllDebug/out/classes.dex
+path.4=classes_1.dex

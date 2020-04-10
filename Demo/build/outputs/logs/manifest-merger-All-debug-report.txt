@@ -1,0 +1,540 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:23:1-37:12
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:multidex:1.0.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/106f7b957e1fab63d2f61c4c9c99656b/multidex-1.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:2:1-14:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/ee2a909e5f0a7ce9be6b4f8002e6ef26/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/viettd/.gradle/caches/transforms-2/files-2.1/add5e06decd9ea13c197066bbd8234fc/rxpermissions-0.10.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/471a9d90d767fc5c1403cd793bafb59a/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0d7aa60173d3c01c04e5a9fd17c99b65/design-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/ce909b28bb5083adb09cb90044dd008a/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/9cc09528106a2223c301575a8bf5ab7f/navigation-fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6b21b001f4ea5dad4bf9ef39c6d4eb6d/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/09341621f6deea7c67749bd610d019f4/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d62bf1dd62f301e433ee2566bb70d08/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:17:1-74:12
+MERGED from [com.contrarywind:Android-PickerView:4.1.7] /Users/viettd/.gradle/caches/transforms-2/files-2.1/30233b52c358f5b7ff3acc877efac87e/Android-PickerView-4.1.7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.tencent.bugly:crashreport:2.8.6] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bb96b7834f74c2db22d28d6ccbf3648a/crashreport-2.8.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0fb573ca5262bb22ec7d8c932f8d4461/nativecrashreport-3.6.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/526beb67034d2301c4e2d8def3abeae8/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:9.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f5a8cd6a809fe5e92d1d32fc0ce6a101/butterknife-9.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5f6885733811133f66c10a7257cffe0b/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6acca5541c9b8ea905224a8baffccccf/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f8b68732c499e52a3dbfa36689955772/navigation-runtime-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/488c9283dd5a70cedb1182d203212a0d/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f987dd01d47db9ccd7294d73009b8c72/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6cca2292b16f2574f45614bafe43bced/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/80f847249f5daac1dade0c601aa0d396/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/987e9e5e002d0144c9247effc33058f2/transition-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:9.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/c25b1ebf5e38e96250d1bc287cc121af/butterknife-runtime-9.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d1c1a113dfd87611701388f09bf299e/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/aa3d32537a0615a9824cefa828548f4d/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/60d74cca70dbee906d62756a098c3c48/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/e52ebca194f3deace4a8692496dceef3/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f7538e2cbb9180203c6ce48859b3aa7/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0dfafc5a0186a93c83ae0b5b74741945/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/b666b24f7de85162be9baa981ffcd91e/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/a2d56e9541fdae6aa88875bd3335204b/navigation-common-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/967d502878e4afe650ce270d75c7dbba/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/b31676aa72f76e24ac57c6ac6c9a9dae/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/394909550578db2232f5d4db890f4029/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/e3286b9a64597fa38ff3934ae1e5628e/cardview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5181533f5a190ce40dfdcc4a9bc70104/leakcanary-analyzer-1.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.contrarywind:wheelview:4.0.9] /Users/viettd/.gradle/caches/transforms-2/files-2.1/179cc15b54b495b8efc2e30b16945e75/wheelview-4.0.9/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f54e0d004f18d9c7494036c9f9486b01/db-framework-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/933a938df5e3721461812aa085adcafd/db-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/15d4ca2080434786dabc81d76159fbad/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59b03ae4caba31471570f403368e98ea/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5d1fe241eb7f53b9f80a902e976ed950/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc729c8b5a4f32326cb29528942ab222/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/fe360cae633d4c2a0ae392f80c7d0cb7/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6e8a2aa813a227acd6cc14b4c98b4682/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0b4f3c405c4e47effafa2e8ff0b3863a/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/82ec63b2be89aae5247cc827458920c1/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:4:3-39
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:3:3-49
+	android:versionCode
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:6:3-65
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:30:5-68
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:30:5-68
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:9:5-68
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:9:5-68
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:11:5-68
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:6:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:7:3-71
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:31:5-74
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:31:5-74
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:10:5-74
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:10:5-74
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:12:5-74
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:7:20-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:8:3-78
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:11:5-81
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:11:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:8:20-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:9:3-77
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:9:20-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:10:3-74
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:16:5-77
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:16:5-77
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:21:5-77
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:21:5-77
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:16:5-77
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:16:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:10:20-72
+uses-permission#android.permission.INTERNET
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:12:3-65
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:19:5-67
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:19:5-67
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:14:5-67
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:12:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:13:3-77
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:13:20-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:14:3-74
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:14:20-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:15:3-66
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:15:20-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:16:3-73
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:16:20-70
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:18:3-66
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:18:20-63
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:22:3-85
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:35:5-88
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:35:5-88
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:14:5-88
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:14:5-88
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:22:27-83
+application
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:24:3-78:17
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-16:19
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-16:19
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:23:5-34:19
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:23:5-34:19
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/viettd/.gradle/caches/transforms-2/files-2.1/add5e06decd9ea13c197066bbd8234fc/rxpermissions-0.10.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/viettd/.gradle/caches/transforms-2/files-2.1/add5e06decd9ea13c197066bbd8234fc/rxpermissions-0.10.2/AndroidManifest.xml:9:5-20
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:25:5-41:19
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:25:5-41:19
+MERGED from [com.android.support:design:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0d7aa60173d3c01c04e5a9fd17c99b65/design-28.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0d7aa60173d3c01c04e5a9fd17c99b65/design-28.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d62bf1dd62f301e433ee2566bb70d08/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d62bf1dd62f301e433ee2566bb70d08/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:28:5-72:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:28:5-72:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/967d502878e4afe650ce270d75c7dbba/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/967d502878e4afe650ce270d75c7dbba/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5181533f5a190ce40dfdcc4a9bc70104/leakcanary-analyzer-1.6.3/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5181533f5a190ce40dfdcc4a9bc70104/leakcanary-analyzer-1.6.3/AndroidManifest.xml:22:5-20
+	android:extractNativeLibs
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:26:9-42
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:28:5-37
+	tools:ignore
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:32:5-44
+	android:roundIcon
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:27:5-50
+	tools:targetApi
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:27:9-28
+	android:icon
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:26:5-39
+	android:allowBackup
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:25:5-31
+	android:theme
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:30:5-36
+	android:networkSecurityConfig
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:29:5-41
+activity#com.vivalnk.sdk.demo.vital.ui.WelcomeActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:33:5-41:16
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:35:7-43
+	android:theme
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:36:7-38
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:34:7-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:37:7-40:23
+action#android.intent.action.MAIN
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:38:9-60
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:38:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:39:9-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:39:19-66
+activity#com.vivalnk.sdk.demo.vital.ui.ScanningActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:42:5-48:40
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:47:7-43
+	android:label
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:44:7-48
+	android:launchMode
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:45:7-37
+	android:configChanges
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:43:7-68
+	android:theme
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:48:7-38
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:46:7-42
+activity#com.vivalnk.sdk.demo.vital.ui.MotionGraphicActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:49:5-53:46
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:53:7-44
+	android:label
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:51:7-47
+	android:configChanges
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:50:7-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:52:7-47
+activity#com.vivalnk.sdk.demo.vital.ui.HistoryActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:54:5-58:46
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:58:7-44
+	android:label
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:56:7-47
+	android:configChanges
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:55:7-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:57:7-41
+activity#com.vivalnk.sdk.demo.vital.ui.DeviceMenuActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:59:5-64:45
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:64:7-43
+	android:parentActivityName
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:63:7-56
+	android:label
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:61:7-52
+	android:configChanges
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:60:7-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:62:7-44
+activity#com.vivalnk.sdk.demo.vital.ui.DeviceConnectedListActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:65:5-70:45
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:70:7-43
+	android:parentActivityName
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:69:7-56
+	android:label
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:67:7-50
+	android:configChanges
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:66:7-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:68:7-53
+activity#com.vivalnk.sdk.demo.vital.ui.RuntimeCheckActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:71:5-74:45
+	android:screenOrientation
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:74:7-43
+	android:configChanges
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:72:7-68
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:73:7-46
+activity#com.vivalnk.sdk.demo.vital.ui.OTAActivity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:75:5-47
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:75:15-45
+activity#com.vivalnk.sdk.demo.vital.ui.DeviceMenu200Activity
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:76:5-57
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:76:15-55
+service#org.eclipse.paho.android.service.MqttService
+ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:77:5-84
+	android:name
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml:77:14-73
+uses-sdk
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
+MERGED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:28:5-44
+MERGED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:28:5-44
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:7:5-44
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:multidex:1.0.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/106f7b957e1fab63d2f61c4c9c99656b/multidex-1.0.3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/106f7b957e1fab63d2f61c4c9c99656b/multidex-1.0.3/AndroidManifest.xml:20:5-43
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:7:5-9:41
+MERGED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/ee2a909e5f0a7ce9be6b4f8002e6ef26/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/ee2a909e5f0a7ce9be6b4f8002e6ef26/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/viettd/.gradle/caches/transforms-2/files-2.1/add5e06decd9ea13c197066bbd8234fc/rxpermissions-0.10.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/viettd/.gradle/caches/transforms-2/files-2.1/add5e06decd9ea13c197066bbd8234fc/rxpermissions-0.10.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:8:5-10:41
+MERGED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/471a9d90d767fc5c1403cd793bafb59a/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/471a9d90d767fc5c1403cd793bafb59a/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0d7aa60173d3c01c04e5a9fd17c99b65/design-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0d7aa60173d3c01c04e5a9fd17c99b65/design-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/ce909b28bb5083adb09cb90044dd008a/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/ce909b28bb5083adb09cb90044dd008a/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/9cc09528106a2223c301575a8bf5ab7f/navigation-fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/9cc09528106a2223c301575a8bf5ab7f/navigation-fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6b21b001f4ea5dad4bf9ef39c6d4eb6d/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6b21b001f4ea5dad4bf9ef39c6d4eb6d/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/09341621f6deea7c67749bd610d019f4/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/09341621f6deea7c67749bd610d019f4/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d62bf1dd62f301e433ee2566bb70d08/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d62bf1dd62f301e433ee2566bb70d08/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.contrarywind:Android-PickerView:4.1.7] /Users/viettd/.gradle/caches/transforms-2/files-2.1/30233b52c358f5b7ff3acc877efac87e/Android-PickerView-4.1.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.7] /Users/viettd/.gradle/caches/transforms-2/files-2.1/30233b52c358f5b7ff3acc877efac87e/Android-PickerView-4.1.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bb96b7834f74c2db22d28d6ccbf3648a/crashreport-2.8.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bb96b7834f74c2db22d28d6ccbf3648a/crashreport-2.8.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0fb573ca5262bb22ec7d8c932f8d4461/nativecrashreport-3.6.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0fb573ca5262bb22ec7d8c932f8d4461/nativecrashreport-3.6.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/526beb67034d2301c4e2d8def3abeae8/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/526beb67034d2301c4e2d8def3abeae8/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:9.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f5a8cd6a809fe5e92d1d32fc0ce6a101/butterknife-9.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:9.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f5a8cd6a809fe5e92d1d32fc0ce6a101/butterknife-9.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5f6885733811133f66c10a7257cffe0b/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5f6885733811133f66c10a7257cffe0b/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6acca5541c9b8ea905224a8baffccccf/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6acca5541c9b8ea905224a8baffccccf/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f8b68732c499e52a3dbfa36689955772/navigation-runtime-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f8b68732c499e52a3dbfa36689955772/navigation-runtime-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/488c9283dd5a70cedb1182d203212a0d/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/488c9283dd5a70cedb1182d203212a0d/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f987dd01d47db9ccd7294d73009b8c72/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f987dd01d47db9ccd7294d73009b8c72/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6cca2292b16f2574f45614bafe43bced/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6cca2292b16f2574f45614bafe43bced/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/80f847249f5daac1dade0c601aa0d396/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/80f847249f5daac1dade0c601aa0d396/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/987e9e5e002d0144c9247effc33058f2/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/987e9e5e002d0144c9247effc33058f2/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:9.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/c25b1ebf5e38e96250d1bc287cc121af/butterknife-runtime-9.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:9.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/c25b1ebf5e38e96250d1bc287cc121af/butterknife-runtime-9.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d1c1a113dfd87611701388f09bf299e/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/1d1c1a113dfd87611701388f09bf299e/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/aa3d32537a0615a9824cefa828548f4d/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/aa3d32537a0615a9824cefa828548f4d/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/60d74cca70dbee906d62756a098c3c48/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/60d74cca70dbee906d62756a098c3c48/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/e52ebca194f3deace4a8692496dceef3/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/e52ebca194f3deace4a8692496dceef3/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f7538e2cbb9180203c6ce48859b3aa7/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f7538e2cbb9180203c6ce48859b3aa7/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0dfafc5a0186a93c83ae0b5b74741945/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0dfafc5a0186a93c83ae0b5b74741945/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/b666b24f7de85162be9baa981ffcd91e/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/b666b24f7de85162be9baa981ffcd91e/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/a2d56e9541fdae6aa88875bd3335204b/navigation-common-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/a2d56e9541fdae6aa88875bd3335204b/navigation-common-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/4b68a40057de47f89eedd915117118af/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/967d502878e4afe650ce270d75c7dbba/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/967d502878e4afe650ce270d75c7dbba/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/b31676aa72f76e24ac57c6ac6c9a9dae/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/b31676aa72f76e24ac57c6ac6c9a9dae/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/394909550578db2232f5d4db890f4029/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/394909550578db2232f5d4db890f4029/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/e3286b9a64597fa38ff3934ae1e5628e/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/e3286b9a64597fa38ff3934ae1e5628e/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5181533f5a190ce40dfdcc4a9bc70104/leakcanary-analyzer-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5181533f5a190ce40dfdcc4a9bc70104/leakcanary-analyzer-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.contrarywind:wheelview:4.0.9] /Users/viettd/.gradle/caches/transforms-2/files-2.1/179cc15b54b495b8efc2e30b16945e75/wheelview-4.0.9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:wheelview:4.0.9] /Users/viettd/.gradle/caches/transforms-2/files-2.1/179cc15b54b495b8efc2e30b16945e75/wheelview-4.0.9/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f54e0d004f18d9c7494036c9f9486b01/db-framework-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/f54e0d004f18d9c7494036c9f9486b01/db-framework-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/933a938df5e3721461812aa085adcafd/db-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/933a938df5e3721461812aa085adcafd/db-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/15d4ca2080434786dabc81d76159fbad/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/15d4ca2080434786dabc81d76159fbad/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59b03ae4caba31471570f403368e98ea/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59b03ae4caba31471570f403368e98ea/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5d1fe241eb7f53b9f80a902e976ed950/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/5d1fe241eb7f53b9f80a902e976ed950/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc729c8b5a4f32326cb29528942ab222/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc729c8b5a4f32326cb29528942ab222/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/fe360cae633d4c2a0ae392f80c7d0cb7/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/fe360cae633d4c2a0ae392f80c7d0cb7/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6e8a2aa813a227acd6cc14b4c98b4682/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6e8a2aa813a227acd6cc14b4c98b4682/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0b4f3c405c4e47effafa2e8ff0b3863a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/0b4f3c405c4e47effafa2e8ff0b3863a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/82ec63b2be89aae5247cc827458920c1/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/viettd/.gradle/caches/transforms-2/files-2.1/82ec63b2be89aae5247cc827458920c1/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from [no.nordicsemi.android:dfu:1.8.1] /Users/viettd/.gradle/caches/transforms-2/files-2.1/bc22891275d075b637a3db0c45e658fe/dfu-1.8.1/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+		ADDED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/src/main/AndroidManifest.xml
+activity#com.nbsp.materialfilepicker.ui.FilePickerActivity
+ADDED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:20
+	android:theme
+		ADDED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from [:base] /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-77
+uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
+ADDED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:34:5-86
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:13:5-86
+MERGED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from [sdk-common-1.2.0.0254.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6d1227254bda7edea0d210e1daa7342a/sdk-common-1.2.0.0254/AndroidManifest.xml:34:29-83
+activity#com.vivalnk.sdk.ble.ota.NotificationActivity
+ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:24:9-81
+	android:name
+		ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:24:19-78
+service#com.vivalnk.sdk.ble.dfu.DfuService
+ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:26:9-32:19
+	android:name
+		ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:26:18-67
+intent-filter#action:name:no.nordicsemi.android.action.DFU_UPLOAD+category:name:android.intent.category.DEFAULT
+ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:27:13-31:29
+action#no.nordicsemi.android.action.DFU_UPLOAD
+ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:28:25-79
+category#android.intent.category.DEFAULT
+ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from [sdk-core-2.1.0.0901.aar] /Users/viettd/.gradle/caches/transforms-2/files-2.1/3f5ac8fa61641d9f69636722fcb9c888/sdk-core-2.1.0.0901/AndroidManifest.xml:30:27-73
+service#io.objectbox.android.AndroidObjectBrowserService
+ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:31:13-76
+receiver#io.objectbox.android.AndroidObjectBrowserReceiver
+ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:34:9-40:20
+	android:exported
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:35:13-77
+intent-filter#action:name:io.objectbox.action.KEEP_ALIVE
+ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:37:13-39:29
+action#io.objectbox.action.KEEP_ALIVE
+ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:38:17-73
+	android:name
+		ADDED from [io.objectbox:objectbox-android-objectbrowser:2.3.4] /Users/viettd/.gradle/caches/transforms-2/files-2.1/6349719b4c3e0c53bd6c2e3b27168b64/objectbox-android-objectbrowser-2.3.4/AndroidManifest.xml:38:25-70
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/viettd/.gradle/caches/transforms-2/files-2.1/59c5bb2175823f9f22509c5f92ca9076/leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93

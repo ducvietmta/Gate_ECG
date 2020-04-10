@@ -1,0 +1,144 @@
+ext {
+  androidVersion = [
+      compileSdkVersion     : 28,
+      buildToolsVersion     : '28.0.3',
+      targetSdkVersion      : 28,
+      minSdkVersion         : 19,
+  ]
+
+  versions = [
+    depend  : [
+        kotlin                : "1.3.41",
+        retrofit              : "2.6.1",
+        okhttp                : "3.12.1",
+        rxjava                : "2.2.8",
+        rxandroid             : "2.1.1",
+        support_version       : "28.0.0",
+        guava                 : "28.0-android",
+        commons_lang3         : "3.8.1",
+        gson                  : "2.8.5",
+        nordicsemi_dfu        : "1.8.1",
+        objectbox             : "2.3.4",
+        rxpermissions         : "0.10.2",
+        butterknife           : "9.0.0",
+        multidex              : "1.0.3",
+        leakcanary            : "1.6.3",
+        room                  : "1.1.1",
+    ],
+
+    aop     : [
+        aspectjrt             : "1.8.9",
+        javassist             : "3.21.0-GA"
+    ],
+
+    test    : [
+        junit                 : "4.12",
+        assertj_core          : "3.11.1",
+        robolectric           : "4.3",
+        bcprov_jdk16          : "1.46",
+        powermock             : "1.6.5",
+        mockito_core          : "2.7.6",
+        androidx_test         : "1.2.0",
+        androidx_ext_junit    : "1.1.1",
+        hamcrest_library      : "1.3",
+        espresso_core         : "3.1.0",
+        uiautomator           : "2.2.0",
+        google_truth          : "1.0",
+    ]
+  ]
+
+  supportLib = [
+      support_v4              : "com.android.support:support-v4:$versions.depend.support_version",
+      appcompat_v7            : "com.android.support:appcompat-v7:$versions.depend.support_version",
+      support_compat          : "com.android.support:support-compat:$versions.depend.support_version",
+      support_fragment        : "com.android.support:support-fragment:$versions.depend.support_version",
+      recyclerview_v7         : "com.android.support:recyclerview-v7:$versions.depend.support_version",
+      design                  : "com.android.support:design:$versions.depend.support_version",
+      constraint_layout       : "com.android.support.constraint:constraint-layout:1.1.3",
+      multidex                : "com.android.support:multidex:1.0.3",
+      arch_navigation         : "android.arch.navigation:navigation-fragment:1.0.0",
+      room_runtime            : "android.arch.persistence.room:runtime:$versions.depend.room",
+      room_compiler           : "android.arch.persistence.room:compiler:$versions.depend.room",
+  ]
+
+  Libs = [
+      dfu                     : "no.nordicsemi.android:dfu:$versions.depend.nordicsemi_dfu",
+      gson                    : "com.google.code.gson:gson:$versions.depend.gson",
+      okhttp                  : "com.squareup.okhttp3:okhttp:$versions.depend.okhttp",
+      commons_lang3           : "org.apache.commons:commons-lang3:$versions.depend.commons_lang3",
+      guava                   : "com.google.guava:guava:$versions.depend.guava",
+
+      //kotlin
+      kotlin_stdlib_jdk7      : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.depend.kotlin",
+      kotlin_reflect          : "org.jetbrains.kotlin:kotlin-reflect:$versions.depend.kotlin",
+      kotlin_test             : "org.jetbrains.kotlin:kotlin-test:$versions.depend.kotlin",
+      kotlin_test_junit       : "org.jetbrains.kotlin:kotlin-test-junit:$versions.depend.kotlin",
+
+      //objectbox
+      objectbrowser           : "io.objectbox:objectbox-android-objectbrowser:$versions.depend.objectbox",
+      objectbox_android       : "io.objectbox:objectbox-android:$versions.depend.objectbox",
+      objectbox_java          : "io.objectbox:objectbox-java:$versions.depend.objectbox",
+
+      //aop
+      aspectjrt               : "org.aspectj:aspectjrt:$versions.aop.aspectjrt",
+      javassist               : "org.javassist:javassist:$versions.aop.javassist",
+
+      //retrofit
+      retrofit                : "com.squareup.retrofit2:retrofit:$versions.depend.retrofit",
+      converter_gson          : "com.squareup.retrofit2:converter-gson:$versions.depend.retrofit",
+      adapter_rxjava2         : "com.squareup.retrofit2:adapter-rxjava2:$versions.depend.retrofit",
+
+      //rxjava
+      rxjava                  : "io.reactivex.rxjava2:rxjava:$versions.depend.rxjava",
+      rxandroid               : "io.reactivex.rxjava2:rxandroid:$versions.depend.rxandroid",
+
+      rxpermissions           : "com.github.tbruyelle:rxpermissions:$versions.depend.rxpermissions",
+      butterknife             : "com.jakewharton:butterknife:$versions.depend.butterknife",
+      butterknife_compiler    : "com.jakewharton:butterknife-compiler:$versions.depend.butterknife",
+
+      leakcanary_android      : "com.squareup.leakcanary:leakcanary-android:$versions.depend.leakcanary",
+      leakcanary_android_no_op: "com.squareup.leakcanary:leakcanary-android-no-op:$versions.depend.leakcanary",
+
+      bugly_crashreport       : "com.tencent.bugly:crashreport:2.8.6",
+      bugly_nativecrashreport : "com.tencent.bugly:nativecrashreport:3.6.0.1",
+
+      PickerView              : "com.contrarywind:Android-PickerView:4.1.7",
+
+  ]
+
+  testLib = [
+      //test
+      junit                   : "junit:junit:$versions.test.junit",
+      assertj_core            : "org.assertj:assertj-core:$versions.test.assertj_core",
+      robolectric             : "org.robolectric:robolectric:$versions.test.robolectric",
+      bcprov_jdk16            : "org.bouncycastle:bcprov-jdk16:$versions.test.bcprov_jdk16",
+
+      mockito_core            : "org.mockito:mockito-core:$versions.test.mockito_core",
+      powermock_module_junit4         : "org.powermock:powermock-module-junit4:$versions.test.powermock",
+      powermock_module_junit4_rule    : "org.mockito:mockito-core:$versions.test.powermock",
+      powermock_api_mockito           : "org.powermock:powermock-api-mockito:$versions.test.powermock",
+      powermock_classloading_xstream  : "org.powermock:powermock-classloading-xstream:$versions.test.powermock",
+
+      // AndroidJUnitRunner and JUnit Rules
+      androidx_test_core              : "androidx.test:core:$versions.test.androidx_test",
+      androidx_test_runner            : "androidx.test:runner:$versions.test.androidx_test",
+      androidx_test_rules             : "androidx.test:rules:$versions.test.androidx_test",
+      androidx_test_ext_junit         : "androidx.test.ext:junit:$versions.test.androidx_ext_junit",
+      hamcrest_library                : "org.hamcrest:hamcrest-library:$versions.test.hamcrest_library",
+      // Android UI test
+      espresso_core                   : "androidx.test.espresso:espresso-core:$versions.test.espresso_core",
+      uiautomator                     : "androidx.test.uiautomator:uiautomator:$versions.test.uiautomator",
+      google_truth                    : "com.google.truth:truth:$versions.test.google_truth",
+      // Assertions
+//      androidTestImplementation 'androidx.test.ext:truth:1.2.0'
+//      androidTestImplementation 'com.google.truth:truth:0.42'
+  ]
+
+  Properties properties = new Properties()
+  if (project.file('local.properties').exists()) {
+    properties.load(project.file('local.properties').newDataInputStream())
+  }
+
+  NEXUS_USERNAME = properties.getProperty('NEXUS_USERNAME', "")
+  NEXUS_PASSWORD = properties.getProperty('NEXUS_PASSWORD', "")
+}

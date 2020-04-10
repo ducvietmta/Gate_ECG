@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/incremental/mergeAllDebugResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/viettd/.gradle/caches/transforms-2/files-2.1/ce909b28bb5083adb09cb90044dd008a/appcompat-v7-28.0.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+# Referenced at /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/merged_manifests/AllDebug/AndroidManifest.xml:30
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/viettd/Downloads/Vivalnk 2/ECG/SDK-01_SDK_v2.1.0_Android_nodemo/SDK-01_SDK_v2.1.0_Android_nodemo/demo_src/Demo/build/intermediates/merged_manifests/AllDebug/AndroidManifest.xml:30
+-keep class com.vivalnk.sdk.demo.vital.base.DemoApplication { <init>(); }

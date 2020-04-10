@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="mfp_toolbar_theme"/>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorError">#FF0000</color>
+    <color name="colorNormal">#0000FF</color>
+    <color name="colorPASS">#00a100</color>
+    <color name="colorPrimary">#1798e8</color>
+    <color name="colorPrimaryDark">#1574c0</color>
+    <color name="colorToolbarPrimary">#FFFFFFFF</color>
+    <color name="colorToolbarPrimaryDark">@color/light_grey</color>
+    <color name="color_grid_line">#eaa1be</color>
+    <color name="color_grid_transparent">#00eaa1be</color>
+    <color name="compatibility_focus_color">#48000000</color>
+    <color name="compatibility_pressed_color">#1a000000</color>
+    <color name="empty_directory_hint">#c7c7c7</color>
+    <color name="halfTransparent">#88FFFFFF</color>
+    <color name="light_grey">#dddddd</color>
+    <color name="rippelColor">#0099CC</color>
+    <color name="settingDeviderGrey">#979797</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <string name="action_close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="empty_directory_hint">Empty directory</string>
+    <string name="file_picker_app_name" translatable="false">MaterialFilePicker</string>
+    <string name="iconfont_add"></string>
+    <string name="iconfont_arrow_left"></string>
+    <string name="iconfont_arrow_right"></string>
+    <string name="iconfont_bluetooth"></string>
+    <string name="iconfont_data_statics"></string>
+    <string name="iconfont_date"></string>
+    <string name="iconfont_delete"></string>
+    <string name="iconfont_glossary"></string>
+    <string name="iconfont_heartbeat"></string>
+    <string name="iconfont_item_check"></string>
+    <string name="iconfont_security"></string>
+    <string name="iconfont_settings"></string>
+    <string name="iconfont_trash"></string>
+    <string name="iconfont_tutorials"></string>
+    <string name="ok">Ok</string>
+    <string name="type_apk">APK</string>
+    <string name="type_archive">Archive</string>
+    <string name="type_certificate">Certificate</string>
+    <string name="type_directory">Directory</string>
+    <string name="type_document">File</string>
+    <string name="type_drawing">Picture</string>
+    <string name="type_excel">Spreadsheet</string>
+    <string name="type_image">Image</string>
+    <string name="type_music">Music</string>
+    <string name="type_pdf">PDF document</string>
+    <string name="type_power_point">Presentation</string>
+    <string name="type_video">Video</string>
+    <string name="type_word">Document</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="actionMenuTextColor">@color/white</item>
+    <item name="android:actionMenuTextColor">@color/white</item>
+  </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="MFP_BaseTheme" parent="AppTheme">
+    <item name="mfp_toolbar_theme">@style/MFP_BaseToolbarTheme</item>
+  </style>
+    <style name="MFP_BaseToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+    <item name="android:textColorPrimary">#FFFFFF</item>
+    <item name="colorControlNormal">#FFFFFF</item>
+  </style>
+    <declare-styleable name="CustomToolbar">
+    <attr format="boolean" name="showback"/>
+  </declare-styleable>
+    <declare-styleable name="RippleBackground">
+    <attr format="color" name="rb_color"/>
+    <attr format="dimension" name="rb_strokeWidth"/>
+    <attr format="dimension" name="rb_radius"/>
+    <attr format="integer" name="rb_duration"/>
+    <attr format="integer" name="rb_rippleAmount"/>
+    <attr format="float" name="rb_scale"/>
+    <attr format="enum" name="rb_type">
+      <enum name="fillRipple" value="0"/>
+      <enum name="strokeRipple" value="1"/>
+    </attr>
+  </declare-styleable>
+    <declare-styleable name="iconfont">
+    <attr format="string" name="ttf"/>
+  </declare-styleable>
+</resources>
